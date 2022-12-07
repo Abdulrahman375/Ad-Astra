@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>AD ASTRA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Map API-->
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" 
+integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+ crossorigin=""/>
+
+<script
+ src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" 
+ integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" 
+crossorigin=""></script>
+<!-- Map API-->
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+
+<script src="nav.js"></script>
+
+</head>
+<body>
+
+
+  
+<!-- Header with full-height image -->
+<header class=" big1 w3-display-container w3-grayscale-min w3-hide-small" >
+  <div class="w3-display-left w3-text-white" style="padding:48px"id="home">
+    <span class="w3-jumbo w3-hide-small"> <img class="w3-image w3-round-large" src="homeimg/logo.png" alt="laptop" width="300" height="300"> </span><br>
+    <span class="w3-large w3-hide-small">The best place to get your electronics</span>
+  </div> 
+  
+</header>
+<!-- Header with full-height image -->
+
+  
+    <!-- for small screens  -->
+<!-- Header with small  image -->
+<header class=" big2 w3-display-container w3-grayscale-min w3-hide-large w3-hide-medium " id="home">
+  <div class="w3-display-left w3-text-white" style="padding:1px"> <br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <span class="w3-jumbo w3-hide-large"><img class="w3-image w3-round-large" src="homeimg/logo.png" alt="laptop" width="150" height="150"> </span><br>
+
+    <span class="w3-large">Your ideal place to get your electronics</span>
+  </div> 
+  
+</header>
+<!-- Header with small image -->
+
+
+<br> <br> <br> <br><br><br>
+
+
+<!-- Products ad -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>We Have the best collection of devices.</h3>
+      <p>We here at AD ASTRA Provide you with the best Quality Devices from our different Partners </p>
+      <p><a href="phones.php" class="w3-button w3-teal "><i class="fa fa-th"> </i> View Our Phones</a></p>
+      <p><a href="accessories.php" class="w3-button w3-teal "><i class="fa fa-th"> </i> View Accessories</a></p>
+
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="homeimg/2.jpg" alt="Buildings" width="600" height="500">
+    </div>
+  </div>
+</div>
+<!-- Products ad -->
+<br><br><br> <br><br><br>
+
+
+<!-- Compare Section -->
+
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <h3 class="w3-center">Our Competition Compared to <strong>AD ASTRA.</strong> </h3> <br><br><br>
+
+    <div class="w3-col m6">
+      <p class="w3-wide w3-center"><strong>Customer Support Response time</strong></p>
+      <p class="w3-wide"></i>AD ASTRA</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-teal  w3-center" style="width:20%">30 min</div>
+      </div>
+      <p class="w3-wide">JARIR Bookstore</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-teal w3-center" style="width:45%">1 day</div>
+      </div>
+      <p class="w3-wide">Extra Electronics</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-teal  w3-center" style="width:80%">3 days &nbsp;:)</div>
+      </div>
+    </div>
+
+    <div class="w3-col m6">
+      <p class="w3-wide w3-center"><strong>Delivery Time</strong></p>
+      <p class="w3-wide"></i>AD ASTRA</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-teal w3-center" style="width:10%">1 day</div>
+      </div>
+      <p class="w3-wide">JARIR Bookstore</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-teal w3-center" style="width:85%">3 day</div>
+      </div>
+      <p class="w3-wide">Extra Electronics</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-teal w3-center" style="width:100%">You may never get the order &nbsp;:)</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Compare Section -->
+
+
+<br> <br><br> <br><br><br>
+
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-teal w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">5k</span>
+    <br>Devices sold
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">500+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">4.9   <label class="fa fa-star"></label  >
+    </span> 
+    <br>    
+    Ratings
+  </div>
+</div>
+<!-- Promo Section "Statistics" -->
+
+<br><br><br> <br><br><br>
+
+<!-- contact Ad-->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h2>Our Customer Service.</h2>
+      <p>We provide The most excellent customer service in the market.<br>
+      Our repitition exceeds us.</p>
+      <p>By Providing 24/7 support By Contacting us through the contact us page.</p>
+      <p><a href="contact.php" class="w3-button w3-teal "> Contact us now</a></p>
+      <p>OR maybe we have an answer to your question at our FAQ page</p>
+      <p><a href="faq.html" class="w3-button w3-teal "> FAQ</a></p>
+
+
+
+
+
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-medium" src="homeimg/3.jpg" alt="Buildings" width="500" height="500">
+      
+    </div>
+  </div>
+</div>
+<!-- contact Ad-->
+
+<br><br><br> <br><br><br>
+
+
+<h1 class="w3-center ">Our Location :</h1>
+
+
+<!-- Map API-->
+
+<div id="map" style=" position: static; width: 70%; height: 50%; margin-left: auto; margin-right: auto;"></div>
+<script>
+
+	var map = L.map('map').setView([24.817507190447227, 46.712402712104335], 15);
+
+	var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',{
+		maxZoom: 22,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox/streets-v11',
+		tileSize: 512,
+		zoomOffset: -1
+	}).addTo(map);
+
+	var marker = L.marker([24.817507190447227, 46.712402712104335]).addTo(map);
+
+</script>
+<!-- Map API-->
+
+
+<br><br><br> <br><br><br>
+
+
+
+
+
+
+<!----------------------------------------------- 
+
+------------------------------------------------>
+
+
+
+<!-- Footer -->
+<script src="footer.js" ></script>
+
+ 
+
+
+
+
+<script>
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+
+
+
+</body>
+</html>

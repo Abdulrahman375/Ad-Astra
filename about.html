@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>about us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("pagephoto/aboutus.png");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<script src="nav.js"></script>
+
+
+<script>
+
+
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small" style="color: black;">About Us</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium " style=" color: black;">About Us</span><br>
+
+    <span class="w3-large" style="color: black;"><strong></strong></span>
+  
+  </div> 
+  
+</header>
+<!------------->
+
+
+<div class="w3-container w3-padding-32"  id="home">
+  <ul class=" w3-left-align breadcrumb w3-large">
+      <li><a href="home.html">Home</a></li>
+      <span style="font-size: 140%; font-weight: bolder;">&nbsp; > </span>
+      <li> &nbsp; About Us</li>
+  </ul>
+</div>
+
+<section>
+  <div class="container reveal">
+    <h2> Our Motto </h2>
+    <div class="text-container">
+      <div class="text-box">
+        <h1> <em>"Per aspera Ad Astra"</em> </h1>
+        <p>
+          " It's a latin phrase which means "Through hardships to the Stars ".
+        </p>
+      </div>
+     
+      
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container reveal">
+    <h2>  </h2> <!--you can add caption here-->
+    <div class="text-container">
+      <div class="text-box">
+       
+          <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+          <h3>What we do</h3>
+          <p>We provide the best new phones in the world
+             with the best prices in one place</p>
+   
+      </div>
+      <div class="text-box">
+
+          <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+          <h3>Passion</h3>
+          <p>we want to be known in the markitplace that we are with
+             the suitable vlaues for our products.</p>
+             <audio id="audio" src="pagephoto/YKHWD.mp3"></audio>
+      </div>
+      <a  onclick="play()" >
+
+      <div class="text-box">
+          <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+          <h3>How We Do It</h3>
+          <p> Our unique, asset-light business model underlies all of the strategic decisions we make.<br> 
+            It has proved highly successful, allowing Ad Astra to swiftly adapt to challenging market conditions</p>
+  
+      </div>
+    </a>
+      <div class="text-box">
+   
+        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+        <h3>Support</h3>
+        <p>We have a substantial email 24/7 service you can freely talk 
+          to us any time at contact us page and remember we hear you.</p>
+  
+      </div>
+      
+    </div>
+    <div class="w3-container w3-light-grey w3-center" style="padding:6px 6px">
+      <p style="font-weight:bolder ;" >By buying your electronic needs in Ad Astra you will have an amazing experience dealing with the Websites UI. <br> We provide a seamless Buying experience with no need to create an account. <br>
+        We provide Excellent collection of electronics with warranty service that exceeds any competing companies
+         </p>
+ 
+  </div>
+  </div>
+</section>
+
+
+
+
+
+<br><br>
+
+<!-- About Section -->
+
+
+
+
+<br><br>
+<br><br><br><br><br>
+
+
+<!-- Footer -->
+<script src="footer.js" ></script>
+
+ 
+<script>
+// Modal Image Gallery
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+</script>
+
+
+
+
+</body>
+</html>
